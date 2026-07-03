@@ -5,10 +5,11 @@ import { Navbar } from './navbar/navbar';
 import { Grid } from './grid/grid';
 import { FormsModule } from '@angular/forms';
 import { PipeEx } from './pipe-ex/pipe-ex';
+import { DriectiveEx } from './driective-ex/driective-ex';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,LoginComponent,Navbar,Grid,FormsModule,PipeEx],
+  imports: [RouterOutlet,LoginComponent,Navbar,Grid,FormsModule,PipeEx,DriectiveEx],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
