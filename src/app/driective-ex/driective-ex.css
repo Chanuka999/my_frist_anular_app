@@ -1,0 +1,29 @@
+.bg-success {
+    background-color: green;
+    color: white;
+}
+
+.bg-danger {
+    background-color: red;
+    color: white;
+}
+
+.bg-warning {
+    background-color: rgb(92, 202, 18);
+    color: white;
+}
+
+.bg-primary {
+    background-color: rgb(82, 95, 212);
+    color: white;
+}
+
+.text-danger{
+    background-color: red;
+    color: white;
+}
+
+.text-success{
+    background-color: rgb(158, 238, 126);
+    color: rgb(20, 14, 14);
+}
