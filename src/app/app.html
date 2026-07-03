@@ -1,4 +1,43 @@
-<h1>Hello chanuka</h1>
-<app-login></app-login>
-<app-navbar></app-navbar>
-<app-grid></app-grid>
+<app-pipe-ex></app-pipe-ex>
+<!-- interpolation -->
+<h1>{{title}}</h1>
+<h1>{{1+2}}</h1>
+
+<!-- property binding -->
+<img [src] = 'imageUrl'/>
+
+<!-- <button [attr.aria-label]="areaLabel">Click me</button>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>age</th>
+    </tr>
+    <tr>
+        <td>chanuka</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>kamal perera</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td [colSpan]="colSpan">sum of age of paeople:34</td>
+    </tr>
+</table>
+
+<br/>
+
+<button [disabled]="isDisabled">click me</button>
+<br/>
+<button disabled="{{isDisbled}}">click me</button> -->
+
+<h1 [style.color] = "color" [style.backgroundColor]="backgroundColor">chanuka</h1>
+
+<h1 [class.active] = "isActive" [class.nonActive] = "!isActive"> developer</h1>
+
+<button (click)="incrementCount()">Click</button>
+<p>Count : {{count}}</p>
+
+<p>username :</p>
+<input [(ngModel)]="username" placeholder="chanuka" >
