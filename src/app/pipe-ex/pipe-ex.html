@@ -1,0 +1,44 @@
+<div>
+    <div>
+        studentname => {{studentname}}
+    </div>
+    <div>
+        {{studentname | uppercase}}
+    </div>
+    <div>
+        {{studentAddress | lowercase}}
+    </div>
+     <div>
+        {{productPrice | number:'1.2-2'}}
+    </div>
+     <div>
+        roleNoList =>{{roleNoList}}
+    </div>
+      <div>
+      {{roleNoList | slice:3}}
+    </div>
+    <div>
+      {{roleNoList | slice:0-3}}
+    </div>
+    <hr>
+   <div>
+      studentObj => {{studentObj}}
+    </div>
+    <div>
+       {{studentObj | json}}
+    </div>
+ <hr>
+    <div>
+       {{currentDate}}
+    </div>
+    <div>
+       {{currentDate | date}}
+    </div>
+     <div>
+       {{currentDate | date:'dd-MM-yy'}}
+    </div>
+    <div>
+       {{currentDate | date:'dd-MMMM-yyyy'}}
+    </div>
+
+</div>
