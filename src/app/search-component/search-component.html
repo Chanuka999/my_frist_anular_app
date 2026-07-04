@@ -1,0 +1,18 @@
+
+<div class="search-container">
+  <input 
+    type="text" 
+    [formControl]="searchControl" 
+    placeholder="Search equipments..." 
+    class="form-control"
+  >
+
+  <ul class="list-group mt-3">
+    <li *ngFor="let item of results" class="list-group-item">
+      {{ item.name }} </li>
+
+    <li *ngIf="results.length === 0" class="list-group-item">
+      No results found.
+    </li>
+  </ul>
+</div>
